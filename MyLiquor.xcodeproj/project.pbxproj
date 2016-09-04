@@ -8,22 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		A7138B211D5E020B007D399A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7138B201D5E020B007D399A /* AppDelegate.swift */; };
-		A7138B231D5E020B007D399A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7138B221D5E020B007D399A /* ViewController.swift */; };
 		A7138B261D5E020B007D399A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7138B241D5E020B007D399A /* Main.storyboard */; };
 		A7138B291D5E020B007D399A /* MyLiquor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7138B271D5E020B007D399A /* MyLiquor.xcdatamodeld */; };
 		A7138B2B1D5E020B007D399A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7138B2A1D5E020B007D399A /* Assets.xcassets */; };
 		A7138B2E1D5E020B007D399A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7138B2C1D5E020B007D399A /* LaunchScreen.storyboard */; };
+		A7138B3C1D5E0E8B007D399A /* Liquor+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7138B3A1D5E0E8B007D399A /* Liquor+CoreDataProperties.swift */; };
+		A7138B3D1D5E0E8B007D399A /* Liquor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7138B3B1D5E0E8B007D399A /* Liquor.swift */; };
+		A7138B411D5EB678007D399A /* LiquorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7138B401D5EB678007D399A /* LiquorCell.swift */; };
+		A7138B431D5EBB71007D399A /* NewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7138B421D5EBB71007D399A /* NewVC.swift */; };
+		A7138B451D5EBC49007D399A /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7138B441D5EBC49007D399A /* DetailVC.swift */; };
+		A7138B471D5EC0DB007D399A /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7138B461D5EC0DB007D399A /* MainVC.swift */; };
+		A7228DCF1D77F35F00C6CE41 /* webVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7228DCE1D77F35F00C6CE41 /* webVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A7138B1D1D5E020B007D399A /* MyLiquor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLiquor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7138B201D5E020B007D399A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A7138B221D5E020B007D399A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A7138B251D5E020B007D399A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7138B281D5E020B007D399A /* MyLiquor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyLiquor.xcdatamodel; sourceTree = "<group>"; };
 		A7138B2A1D5E020B007D399A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7138B2D1D5E020B007D399A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7138B2F1D5E020B007D399A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7138B3A1D5E0E8B007D399A /* Liquor+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Liquor+CoreDataProperties.swift"; path = "../Liquor+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A7138B3B1D5E0E8B007D399A /* Liquor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Liquor.swift; path = ../Liquor.swift; sourceTree = "<group>"; };
+		A7138B401D5EB678007D399A /* LiquorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiquorCell.swift; sourceTree = "<group>"; };
+		A7138B421D5EBB71007D399A /* NewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewVC.swift; sourceTree = "<group>"; };
+		A7138B441D5EBC49007D399A /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		A7138B461D5EC0DB007D399A /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		A7228DCE1D77F35F00C6CE41 /* webVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = webVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,45 @@
 		A7138B1F1D5E020B007D399A /* MyLiquor */ = {
 			isa = PBXGroup;
 			children = (
+				A7138B3F1D5E0FE1007D399A /* View */,
+				A7138B3E1D5E0FD4007D399A /* Controller */,
+				A7138B391D5E062C007D399A /* Model */,
 				A7138B201D5E020B007D399A /* AppDelegate.swift */,
-				A7138B221D5E020B007D399A /* ViewController.swift */,
-				A7138B241D5E020B007D399A /* Main.storyboard */,
 				A7138B2A1D5E020B007D399A /* Assets.xcassets */,
-				A7138B2C1D5E020B007D399A /* LaunchScreen.storyboard */,
 				A7138B2F1D5E020B007D399A /* Info.plist */,
 				A7138B271D5E020B007D399A /* MyLiquor.xcdatamodeld */,
 			);
 			path = MyLiquor;
+			sourceTree = "<group>";
+		};
+		A7138B391D5E062C007D399A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A7138B3A1D5E0E8B007D399A /* Liquor+CoreDataProperties.swift */,
+				A7138B3B1D5E0E8B007D399A /* Liquor.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A7138B3E1D5E0FD4007D399A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A7138B421D5EBB71007D399A /* NewVC.swift */,
+				A7138B441D5EBC49007D399A /* DetailVC.swift */,
+				A7138B461D5EC0DB007D399A /* MainVC.swift */,
+				A7228DCE1D77F35F00C6CE41 /* webVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A7138B3F1D5E0FE1007D399A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A7138B241D5E020B007D399A /* Main.storyboard */,
+				A7138B2C1D5E020B007D399A /* LaunchScreen.storyboard */,
+				A7138B401D5EB678007D399A /* LiquorCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +180,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7138B231D5E020B007D399A /* ViewController.swift in Sources */,
+				A7138B431D5EBB71007D399A /* NewVC.swift in Sources */,
+				A7138B3C1D5E0E8B007D399A /* Liquor+CoreDataProperties.swift in Sources */,
 				A7138B211D5E020B007D399A /* AppDelegate.swift in Sources */,
+				A7138B471D5EC0DB007D399A /* MainVC.swift in Sources */,
+				A7138B411D5EB678007D399A /* LiquorCell.swift in Sources */,
+				A7138B451D5EBC49007D399A /* DetailVC.swift in Sources */,
 				A7138B291D5E020B007D399A /* MyLiquor.xcdatamodeld in Sources */,
+				A7228DCF1D77F35F00C6CE41 /* webVC.swift in Sources */,
+				A7138B3D1D5E0E8B007D399A /* Liquor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +338,7 @@
 				A7138B341D5E020B007D399A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
